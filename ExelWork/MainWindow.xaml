@@ -1,0 +1,32 @@
+﻿<Window x:Class="ExelWork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExelWork"
+        mc:Ignorable="d"
+        Title="Table Assistant 0.1 Pre-Alpha" Height="350" Width="800">
+    <Grid>
+        <Button x:Name="button" Content="Главный файл" HorizontalAlignment="Left" Margin="667,47,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="52,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="610" IsEnabled="False"/>
+        <Button x:Name="button1" Content="Филиал 1" HorizontalAlignment="Left" Margin="667,95,0,0" VerticalAlignment="Top" Width="75" Click="Button1_Click"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="52,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="610" IsEnabled="False"/>
+        <Button x:Name="button2" Content="Филиал 2" HorizontalAlignment="Left" Margin="667,123,0,0" VerticalAlignment="Top" Width="75" Click="Button2_Click"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="52,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="610" IsEnabled="False"/>
+        <Button x:Name="button3" Content="Филиал 3" HorizontalAlignment="Left" Margin="667,151,0,0" VerticalAlignment="Top" Width="75" Click="Button3_Click"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="52,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="610" IsEnabled="False"/>
+        <TextBox x:Name="textBox11" HorizontalAlignment="Left" Height="23" Margin="142,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="W"/>
+        <TextBox x:Name="textBox21" HorizontalAlignment="Left" Height="23" Margin="142,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Y"/>
+        <TextBox x:Name="textBox12" HorizontalAlignment="Left" Height="23" Margin="267,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="11"/>
+        <TextBox x:Name="textBox22" HorizontalAlignment="Left" Height="23" Margin="267,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="37"/>
+        <Label x:Name="label_Copy" Content="Название листа" HorizontalAlignment="Left" Margin="437,191,0,0" VerticalAlignment="Top" Height="23" Width="86" FontSize="10"/>
+        <Label x:Name="label_Copy1" Content="2 ячейка" HorizontalAlignment="Left" Margin="56,271,0,0" VerticalAlignment="Top" Height="23" Width="86" FontSize="10"/>
+        <Label x:Name="label_Copy2" Content="Столбец" HorizontalAlignment="Left" Margin="142,219,0,0" VerticalAlignment="Top" Height="23" Width="120" FontSize="10"/>
+        <Label x:Name="label_Copy3" Content="Строка" HorizontalAlignment="Left" Margin="267,220,0,0" VerticalAlignment="Top" Height="23" Width="120" FontSize="10"/>
+        <Button x:Name="button4" Content="Выполнить" HorizontalAlignment="Left" Height="58" Margin="511,229,0,0" VerticalAlignment="Top" Width="203" FontSize="18" Click="Button4_Click"/>
+        <TextBox x:Name="textBoxSheet" HorizontalAlignment="Left" Height="23" Margin="523,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Text="03.09_4671"/>
+        <Label x:Name="label_Copy4" Content="1 ячейка" HorizontalAlignment="Left" Margin="56,242,0,0" VerticalAlignment="Top" Height="23" Width="86" FontSize="10"/>
+        <Label x:Name="label_Copy5" Content="ВНИМЕНИЕ! В разных выписках разные параметры 2х ячеек!&#xD;&#xA;Сейчас параметры вбиты для длинного листа, который назывался 03.09_4671" HorizontalAlignment="Left" Margin="56,179,0,0" VerticalAlignment="Top" Height="41" Width="376" FontSize="10"/>
+
+    </Grid>
+</Window>

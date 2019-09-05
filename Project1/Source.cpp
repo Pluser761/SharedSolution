@@ -4,7 +4,8 @@ using namespace std;
 
 int main()
 {
-	// fix synh
+	printf("%d","AA");
+
 	system("pause");
 	return 0;
 }
