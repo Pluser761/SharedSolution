@@ -5,22 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WordWork"
         mc:Ignorable="d"
-        Title="MainWindow" Height="265.061" Width="329.5">
+        Title="MainWindow" Height="135" Width="330">
     <Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="85,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
-        <Label x:Name="label" Content="Имя" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="70"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="85,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
-        <Label x:Name="label_Copy" Content="Фамилия" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="70"/>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="85,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
-        <Label x:Name="label_Copy1" Content="День" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="70"/>
-        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="23" Margin="85,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
-        <Label x:Name="label_Copy2" Content="Месяц" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Width="70"/>
-        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="23" Margin="85,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
-        <Label x:Name="label_Copy3" Content="Год" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="70"/>
-        <Button x:Name="button" Content="Заполнить файл" HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" Width="205" Click="Button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205"/>
+        <Label x:Name="label" Content="Имя нового документа" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="140"/>
         <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Height="23" Margin="85,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" IsEnabled="False"/>
         <Label x:Name="label_Copy4" Content="Файл" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="70"/>
         <Button x:Name="button_Copy" Content="Выбрать" HorizontalAlignment="Left" Margin="220,14,0,0" VerticalAlignment="Top" Width="92" Click="Button_Copy_Click" Height="22"/>
+        <Button x:Name="button1" Content="Редактировать" HorizontalAlignment="Left" Margin="220,72,0,0" VerticalAlignment="Top" Width="92" Click="Button1_Click"/>
 
     </Grid>
 </Window>

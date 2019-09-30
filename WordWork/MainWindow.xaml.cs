@@ -18,12 +18,11 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 namespace WordWork
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
-    /// 
+
+
     public partial class MainWindow : System.Windows.Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -35,12 +34,13 @@ namespace WordWork
             of.ShowDialog();
             textBox_Copy4.Text = of.FileName;
         }
-
+        /*
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Word._Application oWord = new Word.Application();
             _Document oDoc = oWord.Documents.Add(textBox_Copy4.Text);
             //заполнение закладок по именам в word
+
             oDoc.Bookmarks["NAME"].Range.Text = textBox.Text;
             oDoc.Bookmarks["NAME1"].Range.Text = textBox.Text;
             oDoc.Bookmarks["SECONDNAME"].Range.Text = textBox_Copy.Text;
@@ -53,5 +53,13 @@ namespace WordWork
 
             System.Windows.Forms.MessageBox.Show("Готово!");
         }
+        */
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            Form1 f = new Form1(textBox.Text, textBox_Copy4.Text);
+            f.Show();
+        }
+        
     }
 }

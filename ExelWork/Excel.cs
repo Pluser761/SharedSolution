@@ -20,7 +20,6 @@ namespace ExelWork
             this.path = path;
             wb = excel.Workbooks.Open(path);
             ws = wb.Worksheets[sheet];
-            
         }
 
         public string ReadCell(int line, string column)
@@ -47,8 +46,10 @@ namespace ExelWork
         }
         public void WriteCell(string str, int line, int column)
         {
+            ws.Cells[line, column].Style.WrapText = !ws.Cells[line, column].Style.WrapText;
             ws.Cells[line, column].Value2 = str;
         }
+        
 
         public void Save()
         {
